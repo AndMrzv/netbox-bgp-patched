@@ -1,3 +1,5 @@
+05/09/2022: patched to support Netbox v3.3 according to https://github.com/k01ek/netbox-bgp/issues/102
+
 # NetBox BGP Plugin
 [Netbox](https://github.com/netbox-community/netbox) plugin for BGP related objects documentation.
 
