@@ -1,8 +1,8 @@
 from rest_framework.serializers import Serializer, HyperlinkedIdentityField, ValidationError
 from rest_framework.relations import PrimaryKeyRelatedField
 
-from netbox.api import ChoiceField, WritableNestedSerializer, ValidatedModelSerializer
-from netbox.api.serializers import NetBoxModelSerializer
+from netbox.api import ChoiceField
+from netbox.api.serializers import NetBoxModelSerializer, WritableNestedSerializer, ValidatedModelSerializer
 from dcim.api.nested_serializers import NestedSiteSerializer, NestedDeviceSerializer
 from tenancy.api.nested_serializers import NestedTenantSerializer
 from extras.api.nested_serializers import NestedTagSerializer
